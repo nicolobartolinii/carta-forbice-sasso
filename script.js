@@ -13,8 +13,7 @@ function computerPlay() {
 function round(playerSelection, cpuSelection) {
     if (playerSelection.toUpperCase() === cpuSelection.toUpperCase()) {
         return 0;
-    }
-    else if ((playerSelection.toUpperCase() === "CARTA" && cpuSelection === "Sasso") || (playerSelection.toUpperCase() === "FORBICE" && cpuSelection === "Carta") || (playerSelection.toUpperCase() === "SASSO" && cpuSelection === "Forbice"))
+    } else if ((playerSelection.toUpperCase() === "CARTA" && cpuSelection === "Sasso") || (playerSelection.toUpperCase() === "FORBICE" && cpuSelection === "Carta") || (playerSelection.toUpperCase() === "SASSO" && cpuSelection === "Forbice"))
         return 1;
     else
         return 2;
@@ -30,8 +29,7 @@ function game() {
         else if (risultato === 1) {
             counterPlayer++;
             i++;
-        }
-        else if (risultato === 2) {
+        } else if (risultato === 2) {
             counterCPU++;
             i++;
         }
@@ -39,9 +37,6 @@ function game() {
 
     if (counterPlayer > counterCPU) {
         return `Giocatore vince. ${counterPlayer} - ${counterCPU}`
-    }
-    else
+    } else
         return `Computer vince. ${counterPlayer} - ${counterCPU}`
 }
-
-console.log(game());

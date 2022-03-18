@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+    margin: 0;
+    background: url('stacked-peaks-haikei.svg');
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.header {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    color: #552600;
+}
+
+.footer {
+    text-align: center;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: #00c3ff;
+}
+
+.content-box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 1rem;
+    border: 0.4rem solid #552600;
+    background-color: #7a370070;
+    font-size: 5rem;
+    color: #552600;
+    margin-left: 0.5rem;
+    box-shadow: 5px 5px 15px 5px #552600;
+}
+
+button:hover {
+    box-shadow: 5px 5px 15px 5px #ffad69;
+    border: 0.4rem solid #ffad69;
+    color: #ffad69;
+    transform: scale(1.05);
+    transition: all 200ms ease-in-out;
+}
+
+button:active {
+    box-shadow: 5px 5px 15px 5px #ffbe88;
+    border: 0.4rem solid #ffbe88;
+    color: #ffbe88;
+    transform: scale(0.95);
+    transition: all 50ms ease-in-out;
+}
+
+.titolo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.scoreboard {
+    width: 30rem;
+    border: 0.4rem solid #552600;
+    background-color: #7a370070;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 15px 5px #552600;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.giocata {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 0.4rem solid #552600;
+}
+
+.giocata div {
+    width: 15rem;
+
+}
+
+.dichi {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+}
+
+.cosa i {
+    font-size: 3rem;
+    color: #552600;
+}
+
+.cosa {
+    font-size: 20px;
+}
+
+.punteggio {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.punti {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.niente i {
+    display: none;
+}

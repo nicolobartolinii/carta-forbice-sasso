@@ -1,13 +1,58 @@
 <!DOCTYPE html>
 <html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Carta Forbice Sasso</title>
-    <script src="script.js"></script>
-</head>
-<body>
-    
-</body>
+    <script src="script.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/988406799c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">Carta Forbice Sasso</div>
+
+    <div class="content-box">
+      <div class="content">
+        <div class="tasti">
+          <div class="titolo">Fai la tua scelta:</div>
+          <button class="carta"><i class="far fa-hand-paper"></i></button>
+          <button class="forbice"><i class="far fa-hand-scissors"></i></button>
+          <button class="sasso"><i class="far fa-hand-rock"></i></button>
+        </div>
+        <div class="scoreboard">
+          <div class="giocata">
+            <div class="player">
+              <div class="dichi">Hai giocato:</div>
+              <div class="cosa niente">
+                <i class="far fa-hand-paper"></i> <br />
+                Ancora nulla
+              </div>
+            </div>
+            <div class="cpu">
+              <div class="dichi">Computer:</div>
+              <div class="cosa niente">
+                <i class="far fa-hand-paper"></i> <br />
+                Ancora nulla
+              </div>
+            </div>
+          </div>
+          <div class="punteggio-box">
+            <div class="punteggio">Punteggio</div>
+            <div class="punti">0-0</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      Created by:
+      <a href="https://github.com/nicolobartolinii">
+        <i class="fab fa-github"></i> nicolobartolinii</a
+      >
+    </div>
+  </body>
 </html>
